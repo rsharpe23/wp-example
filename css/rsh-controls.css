@@ -1,0 +1,94 @@
+/* Normalize */
+
+.customize-control {
+  margin-bottom: 1.5rem !important;
+}
+
+.remove-button {
+  margin-right: 0 !important;
+}
+
+/* Styles */
+
+.rsh-input-group + .rsh-input-group {
+  margin-top: 0.5rem;
+}
+
+.rsh-label {
+  display: block;
+  margin-bottom: 0.325rem;
+  color: #566;
+  font-style: italic;
+}
+
+.rsh-btn {
+  cursor: pointer;
+}
+
+.rsh-portlet + .rsh-portlet {
+  margin-top: 0.5rem;
+}
+
+.rsh-portlet-header {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  cursor: move;
+}
+
+.rsh-portlet-header:hover {
+  border-color: #999;
+}
+
+.rsh-portlet-header > h4 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.rsh-portlet-header > h4 > span {
+  display: block;
+  height: 16px;
+  margin: 0 0.1rem;
+}
+
+.rsh-portlet-header > h4 > span:not(.ui-icon) {
+  flex-grow: 1;
+  margin-right: 0.35rem;
+  margin-left: 0.35rem;
+}
+
+.rsh-portlet-content {
+  padding: 0.65rem 0.5rem;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.rsh-portlet.closed .rsh-portlet-content {
+  display: none;
+}
+
+.rsh-portlet.editable .rsh-portlet-header {
+  background-color: #fffa90;
+}
+
+.customize-control-rsh_link > .rsh-input-group,
+.customize-control-rsh_portlets > .rsh-input-group {
+  display: flex;
+  align-items: center;
+}
+
+.customize-control-rsh_link .rsh-label {
+  width: 20%;
+  margin-bottom: 0;
+}
+
+.customize-control-rsh_portlets > .rsh-input-group {
+  margin-bottom: 0.5rem;
+}
+
+.customize-control-rsh_portlets > .rsh-input-group .rsh-input + .rsh-btn {
+  margin-left: 0.25rem;
+}

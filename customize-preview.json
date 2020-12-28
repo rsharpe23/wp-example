@@ -1,0 +1,53 @@
+[
+  {
+    "id": "pagelead_intro_title",
+    "selector": ".intro__title",
+    "type": "text"
+  },
+  {
+    "id": "pagelead_intro_content",
+    "selector": ".intro__content",
+    "type": "editor"
+  },
+  {
+    "id": "pagelead_intro_link",
+    "selector": ".intro__link",
+    "type": "link"
+  },
+
+
+  {
+    "id": "pagelead_screen_03_title",
+    "selector": ".screen_03 .screen__title",
+    "type": "text"
+  },
+  {
+    "id": "pagelead_screen_03_content",
+    "selector": ".screen_03 .screen__content",
+    "type": "editor"
+  },
+
+
+  {
+    "id": "pagelead_screen_04_title",
+    "selector": ".screen_04 .screen__title",
+    "type": "text"
+  },
+  {
+    "id": "pagelead_screen_04_content",
+    "selector": ".screen_04 .screen__content",
+    "type": "editor"
+  },
+
+
+  {
+    "id": "pagelead_screen_05_title",
+    "selector": ".screen_05 .screen__title",
+    "type": "text"
+  },
+  {
+    "id": "pagelead_screen_05_content",
+    "selector": ".screen_05 .screen__content",
+    "type": "editor"
+  }
+]
